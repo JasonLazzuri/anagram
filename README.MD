@@ -26,7 +26,7 @@
 
 ## Setup/Installation Requirements
 
-The repository for this project can be accessed at https://github.com/JasonLazzuri/anagrams
+The repository for this project can be accessed at https://github.com/JasonLazzuri/anagram
 
 * _Clone the directory_
 * _CD into directory PizzaPies_
