@@ -28,9 +28,11 @@
 
 The repository for this project can be accessed at https://github.com/JasonLazzuri/anagram
 
-* _Clone the directory_
-* _CD into directory PizzaPies_
-* _Open all files using atom_
+* _Using Terminal, run the command 'git clone https://github.com/JasonLazzuri/anagram' in the desktop directory_
+* _now run the command 'cd anagram' to change into that directory/folder_
+* _Open all files using atom by typing the command 'atom .'_
+* _Now in Terminal type 'ruby app.rb' to broadcast the website using Sinatra_
+* _Now, type localhost:4567 into your browser to see the page._
 
 ## Support and contact details
 
