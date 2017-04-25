@@ -8,8 +8,10 @@ class String
       "These words are anagrams"
     elsif !split[0][/[aeiouAEIOU]/] || !split[1][/[aeiouAEIOU]/]
       "That is not a real word!"
-    else (split[0].chars.sort & split[1].chars.sort).empty?
-      "These words are antigrams"
+    elsif (split[0].chars.sort & split[1].chars.sort).empty?
+      "These words have no letter matches and are antigrams."
+    else
+      "this isnt a palindrome, anagram or antigram!"
     end
   end
 end

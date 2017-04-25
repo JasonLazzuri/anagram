@@ -19,10 +19,13 @@ describe('String#anagram') do
   end
 
   it('it will check if the words are antigrams') do
-    expect("hi bye".anagram).to(eq("These words are antigrams"))
+    expect("hi bye".anagram).to(eq("These words have no letter matches and are antigrams."))
   end
   it('it will check if multiple words are anagrams') do
     expect("Ruby Bury".anagram).to(eq("These words are anagrams"))
+  end
+  it('if a word isnt any of them') do
+    expect("racecar raceca".anagram).to(eq("this isnt a palindrome, anagram or antigram!"))
   end
 end
 
